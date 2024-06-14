@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+body h1 {
+    justify-content: center;
+    display: flex;
+}
+body a {
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-box {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+footer img.company-logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer nav.footer-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+footer nav.footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav.footer-navigation i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.design-one-footer .footer-box {
+    background-color: #333;
+    color: #fff;
+}
+
+.design-one-footer .footer-navigation-content:hover {
+    text-decoration: underline;
+}
+
+.design-two-footer .footer-box {
+    background-color: #444;
+    color: #fff;
+}
+
+.design-two-footer .footer-navigation-content.call-to-action {
+    background-color: #f00;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.design-three-footer .footer-box {
+    background-color: #555;
+    color: #fff;
+}
+
+.design-three-footer .footer-nav-button {
+    background-color: #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.design-four-footer .footer-box {
+    background-color: #666;
+    color: #fff;
+}
+
+.design-four-footer {
+    justify-content: space-around;
+}
+
+.design-five-footer .footer-box {
+    background-color: #777;
+    color: #fff;
+}
+
+.design-five-footer i.socials {
+    font-size: 2rem;
+}
+
+/* Animated Footers */
+.design-one-footer .footer-box {
+    background-color: #333;
+    color: #fff;
+}
+
+.design-one-footer .footer-navigation-content:hover {
+    text-decoration: underline;
+}
+
+.design-two-footer .footer-box {
+    background-color: #444;
+    color: #fff;
+}
+
+.design-two-footer .footer-navigation-content.call-to-action {
+    background-color: #f00;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.design-three-footer .footer-box {
+    background-color: #555;
+    color: #fff;
+}
+
+.design-three-footer .footer-nav-button {
+    background-color: #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.design-four-footer .footer-box {
+    background-color: #666;
+    color: #fff;
+}
+
+.design-four-footer {
+    justify-content: space-around;
+}
+
+.design-five-footer .footer-box {
+    background-color: #777;
+    color: #fff;
+}
+
+.design-five-footer i.socials {
+    font-size: 2rem;
+}
+
+
+.design-one-footer-animation .footer-box {
+    background-color: #888;
+    color: #fff;
+}
+
+.design-one-footer-animation .footer-navigation-content.different-font {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.design-two-footer-animation .footer-box {
+    background-color: #999;
+    color: #fff;
+}
+
+.design-two-footer-animation .pop-up {
+    animation: pop-up-animation 2s infinite alternate;
+}
+
+@keyframes pop-up-animation {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+.design-three-footer-animation .footer-box {
+    background-color: #aaa;
+    color: #fff;
+}
+
+.design-three-footer-animation .footer-navigation-content.black {
+    color: #000;
+}
+
+.design-four-footer-animation .footer-box {
+    background-color: #bbb;
+    color: #fff;
+}
+
+.design-four-footer-animation i.socials {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
+
+.design-five-footer-animation .footer-box {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.design-five-footer-animation .company-logo {
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+.design-one-footer-animation .footer-navigation-content:hover {
+    transform: scale(1.1);
+    color: #ff0;
+}
+
+.design-one-footer-animation .company-logo:hover {
+    transform: scale(1.2);
+    border: 2px solid #ff0;
+}
+
+.design-two-footer-animation .footer-navigation-content:hover {
+    transform: rotate(5deg);
+    color: #0ff;
+}
+
+.design-two-footer-animation .company-logo:hover {
+    transform: rotate(-10deg);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.design-three-footer-animation .footer-navigation-content:hover {
+    text-shadow: 2px 2px 5px #000;
+    color: #0f0;
+}
+
+.design-three-footer-animation .company-logo:hover {
+    filter: brightness(1.2);
+    transform: translateY(-5px);
+}
+
+.design-four-footer-animation .footer-navigation-content:hover {
+    transform: translateY(-5px);
+    color: #f0f;
+}
+
+.design-four-footer-animation .company-logo:hover {
+    transform: translateX(10px);
+    opacity: 0.8;
+}
+
+.design-five-footer-animation .footer-navigation-content:hover {
+    letter-spacing: 2px;
+    color: #f00;
+}
+
+.design-five-footer-animation .company-logo:hover {
+    transform: skewY(5deg);
+    border: 2px solid #f00;
+}

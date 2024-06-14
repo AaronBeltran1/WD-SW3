@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Aaron V. Beltran
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=https://github.com/AaronBeltran1/https://github.com/AaronBeltran1/WD-SW3)
 
 ---
 
@@ -61,16 +61,18 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+The project is to create a landing page, different designs of headers, and footers.
 - Whats the purpose
+The purpose of this activity is for us to be able to improve our skills on how we create and design different types of headers and footer in a website.
 - What are key components
+MultiPage Website.
 - What technology used and how it is used
+Using HTML and CSS with the help of Visual Studio Code I am able to achieve the said project.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -111,4 +113,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Schools | Most of the animation parts Like pulse I learned form here. | https://www.w3schools.com/ |
+|Youtube| My guide on creating designs. | https://www.youtube.com/watch?v=nkZz9DOBzBI |

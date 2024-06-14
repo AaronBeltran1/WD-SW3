@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://wallpapercave.com/wp/wp3703399.jpg') no-repeat center center/cover;
+    z-index: -1;
+    filter: blur(2px);
+    opacity: 0.8;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(255, 69, 0, 0.5);
+    max-width: 90%;
+    width: 90%;
+    height: 90%;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 30px rgba(255, 69, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px rgba(255, 69, 0, 0.7);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 30px rgba(255, 69, 0, 0.5);
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.socials {
+    display: flex;
+}
+
+.social-icon {
+    margin-left: 15px;
+    color: #ffd900;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ff0000;
+}
+
+.subtitle {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ff0000;
+}
+
+.description {
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #ddd;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.button.ghost {
+    background: none;
+    border: 2px solid #fff;
+    color: #ff0000;
+}
+
+.button.ghost:hover {
+    background: #fff;
+    color: #000;
+}
+
+.button.solid {
+    background: #ff0000;
+    color: #fff;
+}
+
+.button.solid:hover {
+    background: #954a22;
+}
+
+.additional-image {
+    margin-top: 40px;
+}
+
+.additional-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+}
