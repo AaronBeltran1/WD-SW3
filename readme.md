@@ -60,14 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-The project is to create a landing page, different designs of headers, and footers.
-- Whats the purpose
-The purpose of this activity is for us to be able to improve our skills on how we create and design different types of headers and footer in a website.
-- What are key components
-MultiPage Website.
-- What technology used and how it is used
-Using HTML and CSS with the help of Visual Studio Code I am able to achieve the said project.
+- What is the project - The project is to create a landing page, different designs of headers, and footers.
+- Whats the purpose - The purpose of this activity is for us to be able to improve our skills on how we create and design different types of headers and footer in a website.
+- What are key components - MultiPage Website.
+- What technology used and how it is used - Using HTML and CSS with the help of Visual Studio Code I am able to achieve the said project.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
