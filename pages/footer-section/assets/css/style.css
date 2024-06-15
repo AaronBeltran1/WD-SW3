@@ -23,6 +23,10 @@ body a {
     margin-bottom: 20px;
 }
 
+a:hover{
+    color: #000000;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -66,7 +70,6 @@ footer {
     color: #333;
 }
 
-/* Static Footer One */
 .design-one-footer {
     background-color: #111;
     color: #fff;
@@ -101,7 +104,6 @@ footer {
     color: #fff;
 }
 
-/* Static Footer Two */
 .design-two-footer {
     background-color: #222;
     color: #fff;
@@ -137,7 +139,6 @@ footer {
     color: #bbb;
 }
 
-/* Static Footer Three */
 .design-three-footer {
     background-color: #333;
     color: #fff;
@@ -156,7 +157,7 @@ footer {
 }
 
 .company-logo {
-    width: 100px; /* Adjust the size as needed */
+    width: 100px;
     height: auto;
     margin-right: 20px;
 }
@@ -167,8 +168,6 @@ footer {
     margin-right: 15px;
 }
 
-
-/* Add styling for the copyright text */
 .copyright {
     text-align: center;
     margin-top: 20px;
@@ -177,10 +176,9 @@ footer {
 .copyright p {
     margin: 0;
     font-size: 14px;
-    opacity: 0.7; /* Adjust the opacity as needed */
+    opacity: 0.7;
 }
 
-/* Static Footer Four */
 .design-four-footer {
     background-color: #444;
     color: #fff;
@@ -219,7 +217,6 @@ footer {
     color: #ddd;
 }
 
-/* Static Footer Five */
 .design-five-footer {
     background-color: #555;
     color: #fff;
@@ -257,7 +254,6 @@ footer {
     color: #eee;
 }
 
-/* Animated Footer One */
 .design-one-footer-animation {
     background-color: #111;
     color: #fff;
@@ -315,7 +311,6 @@ footer {
     transform: rotate(360deg);
 }
 
-/* Animated Footer Two */
 .design-two-footer-animation {
     background-color: #222;
     color: #fff;
@@ -373,7 +368,6 @@ footer {
     transform: scale(1.2);
 }
 
-/* Animated Footer Three */
 .design-three-footer-animation {
     background-color: #333;
     color: #fff;
@@ -432,7 +426,6 @@ footer {
     transform: scale(1.05);
 }
 
-/* Animated Footer Four */
 .design-four-footer-animation {
     background-color: #444;
     color: #fff;
@@ -494,7 +487,6 @@ footer {
     transform: scale(1.2);
 }
 
-/* Animated Footer Five */
 .design-five-footer-animation {
     background-color: #555;
     color: #fff;

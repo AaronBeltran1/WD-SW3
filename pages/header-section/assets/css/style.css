@@ -29,6 +29,11 @@ a {
     color: #ff4500;
     font-size: 1.2rem;
     margin-top: 10px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000000;
 }
 /* Design 1 styles */
 .design1 {
