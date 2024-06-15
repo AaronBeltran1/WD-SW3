@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Aaron V. Beltran
+  The purpose of this Seatwork is to improve my skills and to learn more on creating a header and footer design.
 </div>
 
 <br />
