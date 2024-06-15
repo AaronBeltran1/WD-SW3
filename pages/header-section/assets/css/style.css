@@ -35,7 +35,7 @@ a {
 a:hover {
     color: #000000;
 }
-/* Design 1 styles */
+
 .design1 {
     margin-top: 30px;
     text-align: center;
@@ -152,7 +152,7 @@ a:hover {
     color: #fff;
 }
 
-.design-three .bi-person-circle {
+.design-three .bi-info-circle-fill {
     font-size: 1.5rem;
     color: #ff4500;
 }

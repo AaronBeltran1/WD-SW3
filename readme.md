@@ -56,8 +56,7 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+The project's goal is to use HTML and CSS to construct an aesthetically pleasing header and footer display website with both static and animated header and footer versions. The website highlights the significance of both creativity and utility in web design by showcasing five distinct styles for each component.
 
 Guiding Question:
 - What is the project - The project is to create a landing page, different designs of headers, and footers.
@@ -69,12 +68,12 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules and Principles
 1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
